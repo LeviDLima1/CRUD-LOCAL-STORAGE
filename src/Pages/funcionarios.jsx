@@ -46,13 +46,13 @@ export default function EmployeeList() {
                                     <div className="mt-4 flex justify-between">
                                         <button
                                             onClick={() => handleEdit(employee)}
-                                            className="text-blue-500 hover:text-blue-700"
+                                            className="text-blue-500 hover:text-blue-700 cursor-pointer"
                                         >
                                             Editar
                                         </button>
                                         <button
                                             onClick={() => handleDelete(employee.email)}
-                                            className="text-red-500 hover:text-red-700"
+                                            className="text-red-500 hover:text-red-700 cursor-pointer"
                                         >
                                             Excluir
                                         </button>
