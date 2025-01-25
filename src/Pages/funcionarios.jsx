@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Header from './Home/components/header';
 
 export default function EmployeeList() {
     const [employees, setEmployees] = useState([]);
@@ -27,12 +28,8 @@ export default function EmployeeList() {
 
     return (
         <>
-            <div>
-                <button
-                    className="absolute mt-4 ml-4 items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-md shadow-md dark:bg-blue-500 dark:text-white"
-                    onClick={() => navigate('/home')}
-                >Voltar para Home</button>
-            </div>
+        <Header />
+            
             <div className="bg-gray-50 dark:bg-gray-900 p-6 h-screen flex items-center">
                 <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <h2 className="text-2xl text-center font-bold text-gray-900 dark:text-white mb-6">Lista de Funcionários</h2>
