@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'; // Para redirecionar
-import Logo from '/Users/Levi Duarte/Documents/Digital-College/Aula-19/login/src/assets/logo.svg';
+import Logo from './logo.svg';
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
