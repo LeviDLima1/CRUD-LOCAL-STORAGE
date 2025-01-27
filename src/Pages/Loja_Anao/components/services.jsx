@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bandaRock from '../Assets/Banda_rockinho.webp';
-import casamentoAnoes from '../Assets/casamento.jpg';
+import casamentoAnoes from '../Assets/Casamento.jpg';
 import viagem from '../Assets/Viagem_baixo_custo.webp';
 import guardaDiferente from '../Assets/Ninjinhas.webp';
 
